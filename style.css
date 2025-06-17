@@ -1,0 +1,448 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*header*/
+header {
+    background-color: black;
+    border-bottom: 3px solid #b0815e; 
+    padding:0;
+    position: relative;
+}
+/*liste header*/
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    margin:0;
+    gap: 1rem;
+}
+
+a {
+  color: inherit;           
+  text-decoration: none;   
+  transition: all 0.3s;  
+}
+
+nav ul li {
+    padding: 1rem;
+}
+/*body*/
+body {
+    background-color: black;
+    margin: 0;
+    color: #f8f8f8;
+}
+
+
+/*Police url Brunson Rough
+@font-face {
+    font-family: "Brunson";
+    src: url("fonts/Brunson.woff2");
+}
+*/
+
+/*Accueil*/
+.presentation {
+    max-width: 700px;
+    padding: 2rem;
+    text-align:left;
+    font-family: "Verdana, Geneva, Tahoma, sans-serif";
+    font-size: 1.5rem;
+    position: relative;
+    left: 50px;
+}
+
+.partie2 {
+    color: #b0815e;
+}
+
+.accueil {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    position: relative;
+}
+
+.image_ovale img{
+    width: 300px; 
+    height: 400px;
+    position: absolute;
+    top: 100px;
+    left: 930px;
+}
+
+/*fleche*/
+
+.bouton-fleche1 {
+    padding: 10px 20px;
+    background-color: black;
+    border: 0;
+    position: absolute;
+    top: 250px;
+    left: 60px;
+    gap: 8px;
+    display: inline-flex;
+    align-items: center;
+    transition: transform 0.3s ease;
+}
+
+.bouton-fleche1:hover {
+    transform: translateX(10px);
+}
+.bouton-fleche2 {
+    padding: 10px 20px;
+    background-color: black;
+    border: 0;
+    position: absolute;
+    left: 80px;
+    top: 300px;
+    gap: 8px;
+    display: inline-flex;
+    align-items: center;
+    transition: transform 0.3s ease;
+}
+ .bouton-fleche2:hover {
+    transform: translateX(10px);
+ }
+
+.bouton-fleche3 {
+    padding: 10px 20px;
+    background-color: black;
+    border: 0;
+    position: absolute;
+    left: 100px;
+    top: 350px;
+    gap: 8px;
+    display: inline-flex;
+    align-items: center;
+    transition: transform 0.3s ease;
+}
+
+.bouton-fleche3:hover {
+    transform: translateX(10px);    
+}
+
+.bouton-fleche4 {
+    padding: 10px 20px;
+    background-color: black;
+    border: 0;
+    position: absolute;
+    left: 120px;
+    top: 400px;
+    gap: 8px;
+    display: inline-flex;
+    align-items: center;
+    transition: transform 0.3s ease;
+}
+
+.bouton-fleche4:hover {
+    transform: translateX(10px);
+}
+
+.image-fleche {
+    width: 50px;
+    height: 50px;
+}
+
+.texte1 {
+    color: white;
+    font-family: "Edu NSW ACT Cursive", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 1.5rem;
+    font-style: normal;
+}
+
+.texte2 {
+    color:#b0815e;
+    font-family: "Edu NSW ACT Cursive", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500px;
+    font-size: 1.5rem;
+    font-style: normal;
+}
+
+/*A propor*/
+
+.a-propos {
+    position: relative;
+}
+.a_propos {
+    position: absolute;
+    top: 600px;
+    left: 300px;
+    max-width: 700px;
+    text-align: center;
+    font-family: "Verdana, Geneva, Tahoma, sans-serif";
+    font-size: 1.5rem;
+}
+
+.bouton-telecharger {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+    color: white;
+    box-shadow: 0 0 60px -10px;
+
+    display: inline-block;
+    padding: 15px 30px;
+    background-color:#b0815e;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 900px;
+    left: 250px;
+}
+
+.bouton-telecharger:hover {
+    box-shadow: 0 0 60px -5px;    
+}
+
+.voir_experiences {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+    color: white;
+    box-shadow: 0 0 60px -10px;
+
+    display: inline-block;
+    padding: 15px 30px;
+    background-color:#b0815e;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 900px;
+    left: 800px;
+}
+
+.voir_experiences:hover {
+    box-shadow: 0 0 60px -5px;    
+}
+footer {
+    padding: 15px;
+    text-align: center;
+    position: relative;
+    top: 900px;
+    border-top: 3px solid #b0815e;
+    font-size: 0.8rem
+}
+
+/*Deuxième partie // MES COMPETENCES */
+
+.titre-page {
+    position: relative;
+}
+
+.titre_page {
+    position: absolute;
+    top: 50px;
+    left: 500px;
+    max-width: 700px;
+    text-align: center;
+    font-family: "Verdana, Geneva, Tahoma, sans-serif";
+    font-size: 1.5rem;
+}
+
+/*TABLEAU COMPETENCES*/
+
+.tableau_competences {
+    position: absolute;
+    top: 200px;
+    left: 310px;
+    text-align: center;
+    vertical-align: top;
+}
+
+thead{
+    color: white;
+    font-family: "Edu NSW ACT Cursive", cursive;
+    font-optical-sizing: auto;
+    font-size: 1.7rem;
+    font-style: normal;
+}
+
+tbody { 
+    text-align: center;
+}
+
+th, td {
+    padding: 20px 25px;
+}
+
+td {
+    font-size: 1.2rem;
+}
+
+.barre_de_progression{   
+    width: 120px;
+    height: 20px;
+    position: relative;
+    margin: 0 auto;
+    top: 20px;
+}
+
+.footer_competences {
+    padding: 15px;
+    text-align: center;
+    position: relative;
+    top: 600px;
+    border-top: 3px solid #b0815e;
+    font-size: 0.8rem
+}
+
+/* MES EXPERIENCES */ 
+
+.customer_care {
+    border-radius: 30px;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    color: white;
+    background-color: #b0815e;
+    position: absolute;
+    top: 200px;
+    left: 20%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    box-shadow: 0 0 60px -20px;
+    transition: transform 0.3 ease;
+
+}
+
+.customer_care:hover {
+    box-shadow: 0 0 60px -5px; 
+    transform: translateY(10px);       
+}
+
+.agent_ticketing {
+    border-radius: 30px;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    color: white;
+    background-color: #b0815e;
+    position: absolute;
+    top: 200px;
+    left: 55%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    box-shadow: 0 0 60px -20px ;
+    transition: transform 0.3 ease;
+}
+.agent_ticketing:hover {
+    box-shadow: 0 0 60px -5px;    
+    transform: translateY(10px);
+}
+
+/*ME CONTACTER*/
+
+.me-contacter {
+    position: relative;
+}
+
+.me_contacter {
+    position: relative;
+    top: 500px;
+    left: 275px;
+    max-width: 700px;
+    text-align: center;
+    font-family: "Verdana, Geneva, Tahoma, sans-serif";
+    font-size: 1.5rem;
+}
+
+.formulaire {
+    position: relative;
+    top: 600px;
+}
+
+.nom {
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    font-size: 1.2rem;
+}
+
+.contact {
+    position: absolute;
+    top: 10%;
+    left: 62%;
+    font-size: 1.2rem;
+}
+
+.description {
+    position: absolute;
+    top: 250px;
+    left: 35%;
+    font-size: 1.2rem;
+}
+
+#nom {
+    position: absolute;
+    padding: 20px;
+    top: 50px;
+    left: 18%;
+    width: 300px;
+    height: 150px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+}
+
+#contact {
+    position: absolute;
+    padding: 20px;
+    top: 50px;
+    left: 55%;
+    font-size: 1.2rem;
+    width: 300px;
+    height: 150px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+}
+
+#description {
+    position: absolute;
+    padding: 20px;
+    top: 300px;
+    left: 25%;
+    font-size: 1.2rem;   
+    width: 600px;
+    height: 150px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+}
+
+.envoyer {
+    background-color: #b0815e;
+    color: white;
+    position: absolute;
+    top: 500px;
+    left: 42.5%;
+    width: 140px;
+    height: 40px;
+    border-radius: 10px;
+
+
+}
+
+.footer_experiences {
+    padding: 15px;
+    text-align: center;
+    position: relative;
+    top: 1300px;
+    border-top: 3px solid #b0815e;
+    font-size: 0.8rem;
+}
