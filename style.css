@@ -300,6 +300,19 @@ td {
 
 /* MES EXPERIENCES */ 
 
+.titre-page-exp {
+    position: relative;
+}
+.titre_page_exp {
+    position: absolute;
+    top: 50px;
+    left: 550px;
+    max-width: 700px;
+    text-align: center;
+    font-family: "Verdana, Geneva, Tahoma, sans-serif";
+    font-size: 1.5rem;
+}
+
 .customer_care {
     border-radius: 30px;
     width: 200px;
@@ -309,7 +322,7 @@ td {
     background-color: #b0815e;
     position: absolute;
     top: 200px;
-    left: 20%;
+    left: 25%;
     display: flex;
     text-align: center;
     justify-content: center;
@@ -334,7 +347,7 @@ td {
     background-color: #b0815e;
     position: absolute;
     top: 200px;
-    left: 55%;
+    left: 60%;
     display: flex;
     text-align: center;
     justify-content: center;
